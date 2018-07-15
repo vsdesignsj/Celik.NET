@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CelikNET.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:CelikNET.Fakes.ShimCelikException">
+            <summary>Shim type of CelikNET.CelikException</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimCelikException.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimCelikException.#ctor(CelikNET.CelikException)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:CelikNET.Fakes.ShimCelikException.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikException.AllInstances.EIDErrorCodeGet">
+            <summary>Sets the shim of CelikException.get_EIDErrorCode()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikException.AllInstances.EIDErrorDescriptionEnGet">
+            <summary>Sets the shim of CelikException.get_EIDErrorDescriptionEn()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikException.AllInstances.EIDErrorDescriptionSrGet">
+            <summary>Sets the shim of CelikException.get_EIDErrorDescriptionSr()</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimCelikException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimCelikException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikException.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimCelikException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikException.ConstructorStringInt32">
+            <summary>Sets the shim of CelikException.CelikException(String message, Int32 ErrorCode)</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikException.EIDErrorCodeGet">
+            <summary>Sets the shim of CelikException.get_EIDErrorCode()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikException.EIDErrorDescriptionEnGet">
+            <summary>Sets the shim of CelikException.get_EIDErrorDescriptionEn()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikException.EIDErrorDescriptionSrGet">
+            <summary>Sets the shim of CelikException.get_EIDErrorDescriptionSr()</summary>
+        </member>
+        <member name="T:CelikNET.Fakes.ShimCelikInterop">
+            <summary>Shim type of CelikNET.CelikInterop</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimCelikInterop.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimCelikInterop.#ctor(CelikNET.CelikInterop)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:CelikNET.Fakes.ShimCelikInterop.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop.AllInstances.Dispose">
+            <summary>Sets the shim of CelikInterop.Dispose()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of CelikInterop.Dispose(Boolean A_0)</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop.AllInstances.ReadDocumentData">
+            <summary>Sets the shim of CelikInterop.ReadDocumentData()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop.AllInstances.ReadFixedPersonalData">
+            <summary>Sets the shim of CelikInterop.ReadFixedPersonalData()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop.AllInstances.ReadProfileImage">
+            <summary>Sets the shim of CelikInterop.ReadProfileImage()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop.AllInstances.ReadVariablePersonalData">
+            <summary>Sets the shim of CelikInterop.ReadVariablePersonalData()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop.AllInstances._CelikInterop">
+            <summary>Sets the shim of CelikInterop.!CelikInterop()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop.AllInstances._CelikInterop01">
+            <summary>Sets the shim of CelikInterop.~CelikInterop()</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimCelikInterop.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimCelikInterop.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimCelikInterop.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop.Cleanup">
+            <summary>Sets the shim of CelikInterop.Cleanup()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop.Constructor">
+            <summary>Sets the shim of CelikInterop.CelikInterop()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop.Dispose">
+            <summary>Sets the shim of CelikInterop.Dispose()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop.DisposeBoolean">
+            <summary>Sets the shim of CelikInterop.Dispose(Boolean A_0)</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop.ReadDocumentData">
+            <summary>Sets the shim of CelikInterop.ReadDocumentData()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop.ReadFixedPersonalData">
+            <summary>Sets the shim of CelikInterop.ReadFixedPersonalData()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop.ReadProfileImage">
+            <summary>Sets the shim of CelikInterop.ReadProfileImage()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop.ReadVariablePersonalData">
+            <summary>Sets the shim of CelikInterop.ReadVariablePersonalData()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop.StaticConstructor">
+            <summary>Sets the shim of CelikInterop.CelikInterop()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop._CelikInterop">
+            <summary>Sets the shim of CelikInterop.!CelikInterop()</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimCelikInterop._CelikInterop01">
+            <summary>Sets the shim of CelikInterop.~CelikInterop()</summary>
+        </member>
+        <member name="T:CelikNET.Fakes.ShimDocumentData">
+            <summary>Shim type of CelikNET.DocumentData</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimDocumentData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimDocumentData.#ctor(CelikNET.DocumentData)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:CelikNET.Fakes.ShimDocumentData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimDocumentData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimDocumentData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimDocumentData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimDocumentData.Constructor">
+            <summary>Sets the shim of DocumentData.DocumentData()</summary>
+        </member>
+        <member name="T:CelikNET.Fakes.ShimFixedPersonalData">
+            <summary>Shim type of CelikNET.FixedPersonalData</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimFixedPersonalData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimFixedPersonalData.#ctor(CelikNET.FixedPersonalData)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:CelikNET.Fakes.ShimFixedPersonalData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimFixedPersonalData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimFixedPersonalData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimFixedPersonalData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimFixedPersonalData.Constructor">
+            <summary>Sets the shim of FixedPersonalData.FixedPersonalData()</summary>
+        </member>
+        <member name="T:CelikNET.Fakes.ShimVariablePersonalData">
+            <summary>Shim type of CelikNET.VariablePersonalData</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimVariablePersonalData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimVariablePersonalData.#ctor(CelikNET.VariablePersonalData)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:CelikNET.Fakes.ShimVariablePersonalData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimVariablePersonalData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.ShimVariablePersonalData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimVariablePersonalData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.ShimVariablePersonalData.Constructor">
+            <summary>Sets the shim of VariablePersonalData.VariablePersonalData()</summary>
+        </member>
+        <member name="T:CelikNET.Fakes.StubDocumentData">
+            <summary>Stub type of CelikNET.DocumentData</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.StubDocumentData.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.StubDocumentData.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.StubDocumentData.InitializeStub">
+            <summary>Initializes a new instance of type StubDocumentData</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.StubDocumentData.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.StubDocumentData.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:CelikNET.Fakes.StubFixedPersonalData">
+            <summary>Stub type of CelikNET.FixedPersonalData</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.StubFixedPersonalData.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.StubFixedPersonalData.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.StubFixedPersonalData.InitializeStub">
+            <summary>Initializes a new instance of type StubFixedPersonalData</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.StubFixedPersonalData.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.StubFixedPersonalData.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:CelikNET.Fakes.StubVariablePersonalData">
+            <summary>Stub type of CelikNET.VariablePersonalData</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.StubVariablePersonalData.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.StubVariablePersonalData.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:CelikNET.Fakes.StubVariablePersonalData.InitializeStub">
+            <summary>Initializes a new instance of type StubVariablePersonalData</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.StubVariablePersonalData.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:CelikNET.Fakes.StubVariablePersonalData.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

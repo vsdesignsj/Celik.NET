@@ -1,0 +1,7 @@
+D:\Projects\CitacTest\ConsoleTester\bin\Debug\ConsoleTester.exe.config
+D:\Projects\CitacTest\ConsoleTester\bin\Debug\ConsoleTester.exe
+D:\Projects\CitacTest\ConsoleTester\bin\Debug\ConsoleTester.pdb
+D:\Projects\CitacTest\ConsoleTester\bin\Debug\CelikNET.dll
+D:\Projects\CitacTest\ConsoleTester\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+D:\Projects\CitacTest\ConsoleTester\obj\x86\Debug\ConsoleTester.exe
+D:\Projects\CitacTest\ConsoleTester\obj\x86\Debug\ConsoleTester.pdb
